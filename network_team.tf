@@ -1,6 +1,6 @@
 variable "puplic_ips" {
     type = list(string)
-    default = [ "55.8.8.88", "1.1.1.1", "3.3.3.3", "4.4.4.44" ]  
+    default = [ "55.8.8.88", "1.1.1.1" ]  
 }
 
 output "public_ips" {
